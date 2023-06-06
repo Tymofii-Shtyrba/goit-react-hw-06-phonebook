@@ -20,7 +20,7 @@ export default function ContactsForm() {
         Name
         <input type="text" name="name" required />
       </label>
-      <label htmlFor="">
+      <label>
         Number
         <input type="text" name="number" required />
       </label>
