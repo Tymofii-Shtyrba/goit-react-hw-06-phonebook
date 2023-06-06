@@ -8,7 +8,6 @@ export default function Contact({ id, name, number }) {
   const dispatch = useDispatch();
   const onClick = id => {
     dispatch(deleteContact(id));
-    console.log(id);
   };
   return (
     <ListItem>

@@ -2,5 +2,6 @@ import styled from "@emotion/styled";
 
 export const List = styled.ul`
 display: flex;
-flex-directrion: column;
+flex-direction: column;
+gap: 10px;
 `
